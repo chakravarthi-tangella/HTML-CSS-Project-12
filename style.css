@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+.header-image{
+    width: 500px;
+}
+
+header{
+    background-color: #636C79;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: #fff;
+}
+
+/* Header-logo */
+
+.nav-logo>.logo{
+    width: 140px;
+    margin: 30px 90px;
+}
+
+/* Navigation-Bar */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    color:#dddada;
+}
+
+.nav-list-items{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+}
+
+.nav-item-active{
+    background-color: transparent;
+    width: 18%;
+    padding: 10px 0;
+    border: 1px solid #ada6a6;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 60px;
+}
+
+/* Header-img */
+
+.header-img{
+    height: 560px;
+    width: 460px;
+    border-radius: 10px;
+    margin: 30px 0 80px 150px;
+    background-image: url(images/header-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* <!-- Text --> */
+
+.header-text{
+    padding: 60px 150px;
+}
+
+.header-text>h2{
+    font-family: 'Raleway';
+    font-size: 4.5rem;
+    font-weight: 700;
+
+}
+
+.header-text>p{
+    width: 80%;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 30px 0;
+    color:#dddada;
+}
+
+.header-text>form{
+    width: 75%;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+}
+
+.header-text>form:before{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    content: "\f0e0";
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    left: 20px;
+    top: 28px;
+}
+
+.form-input{
+    width: 60%;
+    padding: 15px 0;
+    border: none;
+}
+
+.form-input::placeholder{
+    font-size: 1rem;
+    padding-left: 40px;
+    color:#8e8686;
+}
+
+.form-btn{
+    background-color: #8BB7A2;
+    padding: 15px 52px;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+/* <!-- Target-Info --> */
+
+.target-info{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* <!-- Target-Heading --> */
+
+.target-heading{
+    font-family: 'Raleway';
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* <!-- Target-Details --> */
+
+.target-details{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.target-detail-info{
+    height: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.target-detail-info>h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.target-detail-info>h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #8e8686;
+}
+
+/* Target-Image */
+
+.target-image{
+    width: 80%;
+    height: 600px;
+    background-image: url(./images/target-image.jpg);
+    background-size: cover;
+    background-position: 0 100;
+    position: relative;
+    margin: 40px 0;
+}
+
+.circle-1{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+
+.circle-2{
+    position: absolute;
+    left: 35px;
+    top: 35px;
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.circle-3{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.circle-3::after{
+    content: '\f04b';
+    color: #8BB7A2;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+
+/* Content */
+
+.content{
+    text-align: center;
+}
+
+.content-heading{
+    font-family: 'Raleway';
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+
+.content-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-card-1{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.content-left{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.content-card-heading{
+    font-family: 'Raleway';
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.content-card-description{
+    font-weight: 400;
+    margin: 35px 0;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    color: #8e8686;
+}
+
+.content-right{
+    width: 550px;
+    height: 500px;
+    background-image: url(images/content-1-image.jpg);
+    background-size: cover;
+    background-position-x: -200px;
+}
+
+/* Content-3 */
+
+.content-3-right{
+    width: 550px;
+    height: 500px;
+    background-image: url(./images/content-3-image.jpg);
+    background-size: cover;
+    background-position-x: -80px;
+}
+
+/* Content-2 */
+
+.content-2-right{
+    width: 550px;
+    height: 500px;
+    background-image: url(./images/content-2-image.jpg);
+    background-size: cover;
+}
+
+/* Team */
+
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 40px 0;
+}
+
+.team-heading>h2{
+    font-family: 'Raleway';
+    font-size: 3.2rem;
+}
+
+.team-heading>p{
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9d9696;
+}
+
+.team-cards{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.5rem;
+}
+
+.team-img1{
+    width: 100%;
+    height: 430px;
+    background-image: url(./images/team-1-image.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.team-img2{
+    width: 100%;
+    height: 430px;
+    background-image: url(./images/team-2-image.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    margin-bottom: 20px;
+}
+
+.team-img3{
+    width: 100%;
+    height: 430px;
+    background-image: url(./images/team-3-image.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    margin-bottom: 20px;
+}
+
+.team-name{
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.team-description{
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #656769;
+}
+
+.team-btn{
+    margin: 50px 0;
+}
+
+
+
+
+/* Footer  */
+
+.footer{
+    background-color: #1d1d1d;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 70px;
+}
+
+.footer-top{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(111, 107, 107);
+}
+
+.footer-logo{
+    width: 130px;
+}
+
+.footer-bottom{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer-list{
+    height: 100%;
+    width: 18%;
+}
+
+.footer-list-items{
+    height: 100%;
+    font-family: 'Roboto';
+
+}
+
+.ft-list-active{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-list-items{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(195, 189, 189);
+}
