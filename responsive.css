@@ -1,0 +1,104 @@
+@media screen and (max-width: 1470px) {
+    .header-text>h2{
+        font-size: 3.5rem;
+    }
+
+    .content-card-heading{
+        font-size: 2.5rem;
+    }
+
+    .content-card-description{
+        margin: 35px 0;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header{
+        background-color: #636C79;
+        display: grid;
+        grid-template-columns: 1fr;
+        color: #fff;
+        gap: 3rem;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header .fa-bars{
+        display: block;
+        font-size: 2rem;
+        position: absolute;
+        right: 5rem;
+        top: 2rem;
+    }
+
+    .header-img{
+        width: 90%;
+        margin:  0 auto;
+    }
+
+    .header-text{
+        padding: 0;
+    }
+
+     .header-text>h2{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .header-text>form, .header-text>p{
+        margin: 1rem auto;
+        text-align: center;
+    } 
+
+    .team-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .content-card-1{
+    flex-direction: column-reverse;
+    gap: 2rem;
+    }
+
+    .content-card-2{
+        flex-direction: column;
+     }
+
+     .content-left{
+        width: 70%;
+     }
+
+     .team-heading{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 80%;
+        margin: 40px 0;
+    }
+
+    .team-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .team-card{
+        width: 60%;
+        margin: auto;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+    .footer-top, .footer-bottom{
+        height: auto;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
