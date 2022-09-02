@@ -207,8 +207,10 @@ nav{
 
 .circle-1{
     position: absolute;
-    left: 500px;
-    top: 200px;
+    /* left: 500px;
+    top: 200px; */
+    left: 40%;
+    top: 40%;
     width: 200px;
     height: 200px;
     background-color: transparent;
